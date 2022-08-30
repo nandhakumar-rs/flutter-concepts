@@ -12,6 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo', debugShowCheckedModeBanner: false, home: Home());
+        title: 'Flutter Onboarding UI',
+        debugShowCheckedModeBanner: false,
+        home: Home());
   }
 }

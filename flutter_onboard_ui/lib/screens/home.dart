@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:onboarding/models/onbard.dart';
 import 'package:onboarding/widgets/onboard_content.dart';
@@ -14,6 +13,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   late PageController _pageController;
   int _pageIndex = 0;
+
   final List<Onboard> onboardList = [
     Onboard(
       image: 'assets/images/onboard-one.png',
